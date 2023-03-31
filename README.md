@@ -21,3 +21,5 @@ https://stackoverflow.com/questions/33679875/whats-the-meaning-of-the-row-class-
 https://stackoverflow.com/questions/39228657/disable-chrome-strict-mime-type-checking
 
 https://chat.openai.com/
+
+Bob Small
