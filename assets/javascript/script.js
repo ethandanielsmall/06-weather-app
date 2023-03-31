@@ -1,28 +1,28 @@
-const weatherApiKey = '9573bc66649be96e7330a4311c6baf7d';
-let savedCities = [];
+// const weatherApiKey = '9573bc66649be96e7330a4311c6baf7d';
+// let savedCities = [];
 
-function search(){
-    $("#search-button").on("click", function () {
-        //get value in input search-value.
-        var searchTerm = $("#search-value").val();
-        //empty input field.
-        $("#search-value").val("");
-        console.log("clicketh")
-      });
+// function search(){
+//     $("#search-button").on("click", function () {
+//         //get value in input search-value.
+//         var searchTerm = $("#search-value").val();
+//         //empty input field.
+//         $("#search-value").val("");
+//         console.log("clicketh")
+//       });
 
-function getWeather() {
-    var cityHourlyForecast = "https://pro.openweathermap.org/data/2.5/forecast/hourly?q=" + city + "&appid=9573bc66649be96e7330a4311c6baf7d"
-    };
+// function getWeather() {
+//     var cityHourlyForecast = "https://pro.openweathermap.org/data/2.5/forecast/hourly?q=" + city + "&appid=9573bc66649be96e7330a4311c6baf7d"
+//     };
 
 
     
-};
+// };
 
-document.querySelector('#txtSearch').addEventListener('keypress', function (e) {
-    if (e.key === 'Enter') {
-      console.log("an enter has occured")
-    }
-});
+// document.querySelector('#txtSearch').addEventListener('keypress', function (e) {
+//     if (e.key === 'Enter') {
+//       console.log("an enter has occured")
+//     }
+// });
 
 // to get the weather
 // type the weather in the bar
