@@ -71,8 +71,8 @@ $(document).ready(function () {
             const titleFive = $("<h3>").addClass("card-title").text(new Date(data.list[i].dt_txt).toLocaleDateString());
             const imgFive = $("<img>").attr("src", "https://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png");
             const colFive = $("<div>").addClass("col-md-2.5");
-            const cardFive = $("<div>").addClass("card bg-primary text-white");
-            const cardBodyFive = $("<div>").addClass("card-body p-2");
+            const cardFive = $("<div>").addClass("card");
+            const cardBodyFive = $("<div>").addClass("card-body p-1");
             const humidFive = $("<p>").addClass("card-text").text("Humidity: " + data.list[i].main.humidity + "%");
             const tempFive = $("<p>").addClass("card-text").text("Temperature: " + data.list[i].main.temp + " °F");
   
