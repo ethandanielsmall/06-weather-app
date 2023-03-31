@@ -1,30 +1,33 @@
 const weatherApiKey = '9573bc66649be96e7330a4311c6baf7d';
 let savedCities = [];
 
-function getWeather() {
-    var cityHourlyForecast = "https://pro.openweathermap.org/data/2.5/forecast/hourly?q=" + city + "&appid=9573bc66649be96e7330a4311c6baf7d"
-    };
-
-
 function search(){
     $("#search-button").on("click", function () {
         //get value in input search-value.
         var searchTerm = $("#search-value").val();
         //empty input field.
         $("#search-value").val("");
-        weatherFunction(searchTerm);
-        weatherForecast(searchTerm);
+        console.log("clicketh")
       });
 
-      $("#search-button").keypress(function (event) {
-        var keycode = (event.keyCode ? event.keyCode : event.which);
-        if (keycode === 13) {
-          weatherFunction(searchTerm);
-          weatherForecast(searchTerm);
-        }
-        console.log("#search-value");
-      });
-}
+function getWeather() {
+    var cityHourlyForecast = "https://pro.openweathermap.org/data/2.5/forecast/hourly?q=" + city + "&appid=9573bc66649be96e7330a4311c6baf7d"
+    };
+
+
+    
+};
+
+document.querySelector('#txtSearch').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+      console.log("an enter has occured")
+    }
+});
+
+// to get the weather
+// type the weather in the bar
+// hit enter
+// console.log the humidity of the city ig!!!
     
 // WHEN I search for a city
 // THEN I am presented with current and future conditions for that city and that city is added to the search history
