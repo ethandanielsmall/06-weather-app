@@ -15,3 +15,9 @@ Deployed application: (https://ethandanielsmall.github.io/05-todo-list/)
 ## TODO Credits
 
 https://uiverse.io/alexruix/slippery-frog-10
+
+https://stackoverflow.com/questions/33679875/whats-the-meaning-of-the-row-class-in-bootstrap-its-difference-from-containe
+
+https://stackoverflow.com/questions/39228657/disable-chrome-strict-mime-type-checking
+
+https://chat.openai.com/
