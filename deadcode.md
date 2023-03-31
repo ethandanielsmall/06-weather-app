@@ -12,8 +12,3 @@ https://openweathermap.org/
 https://getbootstrap.com/
 
 https://day.js.org/ -USE DAYJS to get times- go back to the other projects if u need to know how to use this darned thing lol
-
-init commit comment test
-
-DEF going to need an api code/key :///
-
