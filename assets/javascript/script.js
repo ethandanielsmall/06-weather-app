@@ -29,7 +29,7 @@ $(document).ready(function () {
   
       $.ajax({
         type: "GET",
-        url: "https://api.openweathermap.org/data/2.5/weather?q=" + searchTerm + "&appid=9f112416334ce37769e5c8683b218a0d",
+        url: "https://api.openweathermap.org/data/2.5/weather?q=" + searchTerm + "&appid=9573bc66649be96e7330a4311c6baf7d",
   
       }).then(function (data) {
         if (saved.indexOf(searchTerm) == -1) {
@@ -58,7 +58,7 @@ $(document).ready(function () {
     function weatherForecast(searchTerm) {
       $.ajax({
         type: "GET",
-        url: "https://api.openweathermap.org/data/2.5/forecast?q=" + searchTerm + "&appid=9f112416334ce37769e5c8683b218a0d&units=imperial",
+        url: "https://api.openweathermap.org/data/2.5/forecast?q=" + searchTerm + "&appid=9573bc66649be96e7330a4311c6baf7d&units=imperial",
   
       }).then(function (data) {
         $("#forecast").html("<h4 class=\"mt-3\">5-Day Forecast:</h4>").append("<div class=\"row\">");
