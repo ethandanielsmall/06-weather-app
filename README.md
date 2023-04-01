@@ -23,3 +23,5 @@ https://stackoverflow.com/questions/39228657/disable-chrome-strict-mime-type-che
 https://chat.openai.com/
 
 Bob Small
+
+https://github.com/jenryt/WeatherDashboard
