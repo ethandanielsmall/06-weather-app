@@ -1,12 +1,12 @@
-## 06-weather-app
+# 06-weather-app
 
 ## TODO Description of the webpage
 
-This webpage is designed to make a daily tasks list during typical business hours.
+This webpage is designed to show predictions and current weather conditions of various cities using the weatheropenmap api.
 
 ## TODO Screenshot of the webpage
 
-![screenshot of the webpage] (https://user-images.githubusercontent.com/124843114/228118232-fb050fb4-dbd3-4928-b660-5280484ad57f.png)
+![screenshot of the webpage](https://github.com/ethandanielsmall/MuseMaster/blob/main/assets/images/MuseMaster.png?raw%3Dtrue)
 
 ## TODO Link to deployed application
 
