@@ -1,12 +1,12 @@
 # 06-weather-app
 
-## TODO Description of the webpage
+## Description of the webpage
 
 This webpage is designed to show predictions and current weather conditions of various cities using the weatheropenmap api.
 
 ## TODO Screenshot of the webpage
 
-![screenshot of the webpage](https://github.com/ethandanielsmall/MuseMaster/blob/main/assets/images/MuseMaster.png?raw%3Dtrue)
+![screenshot of the webpage](https://raw.githubusercontent.com/ethandanielsmall/06-weather-app/main/assets/images/weather%20app.png)
 
 ## TODO Link to deployed application
 
