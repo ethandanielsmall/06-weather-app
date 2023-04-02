@@ -4,24 +4,36 @@
 
 This webpage is designed to show predictions and current weather conditions of various cities using the weatheropenmap api.
 
-## TODO Screenshot of the webpage
+## Screenshot of the webpage
 
 ![screenshot of the webpage](https://raw.githubusercontent.com/ethandanielsmall/06-weather-app/main/assets/images/weather%20app.png)
 
-## TODO Link to deployed application
+## Link to deployed application
 
-Deployed application: (https://ethandanielsmall.github.io/05-todo-list/)
+Deployed application: (https://ethandanielsmall.github.io/06-weather-app)
 
-## TODO Credits
+## Credits
 
-https://uiverse.io/alexruix/slippery-frog-10
+Bootstrap: https://getbootstrap.com/
 
-https://stackoverflow.com/questions/33679875/whats-the-meaning-of-the-row-class-in-bootstrap-its-difference-from-containe
+Font Awesome: https://fontawesome.com/
 
-https://stackoverflow.com/questions/39228657/disable-chrome-strict-mime-type-checking
+Openweathermap: https://openweathermap.org/ 
 
-https://chat.openai.com/
+Alexruix: https://uiverse.io/alexruix/slippery-frog-10
 
-Bob Small
+Anthony Dominguez: https://github.com/anthonydominguez86/weather-dashboard-week-6
 
-https://github.com/jenryt/WeatherDashboard
+Heather Cooper: https://github.com/EdenKhaos/06-weather_dashboard
+
+Dina Liubarets: https://github.com/DiLiubarets/Weather-Dashboard
+
+Tristan and anonymous: https://stackoverflow.com/questions/33679875/whats-the-meaning-of-the-row-class-in-bootstrap-its-difference-from-containe
+
+Atul Sharma: https://stackoverflow.com/questions/39228657/disable-chrome-strict-mime-type-checking
+
+Open Ai: https://chat.openai.com/
+
+Jennifer Rytikoff: https://github.com/jenryt/WeatherDashboard
+
+Biggest thanks to Bob Small!!
