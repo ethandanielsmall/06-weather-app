@@ -1,3 +1,5 @@
+const { create } = require("domain");
+
 $(document).ready(function () {
     $("#search-button").on("click", function () {
       const searchTerm = $("#search-value").val();
@@ -19,6 +21,19 @@ $(document).ready(function () {
         const listItem = $("<li>").addClass("list-group-item").text(text);
         $(".saved").append(listItem);
       }
+
+                  // Create the Delete button
+                   const deleteButton = document.createElement('button');
+                   deleteButton.textContent = 'Delete';
+                  // deleteButton.addEventListener('click', () => {
+                  //   deleteCity(saved.text);
+                  // });
+
+              
+                  // Append the Delete button to the list item
+                  create.appendChild(deleteButton);
+              
+                  // saved.appendChild(listItem);
 
     $(".saved").on("click", "li", function () {
         weatherCurrent($(this).text());
