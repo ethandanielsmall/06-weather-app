@@ -20,10 +20,16 @@ $(document).ready(function () {
       $(".saved").append(listItem);
     }
 
+    let word = "this is a word";
+
   $(".saved").on("click", "li", function () {
       weatherCurrent($(this).text());
       weatherForecast($(this).text());
   });
+
+  // for each city listed
+  // generate delete button
+  // button is functional and deletes city from localstorage
 
   function weatherCurrent(searchTerm) {
 
